@@ -7,6 +7,8 @@ gem 'rails', '3.2.8'
 
 gem 'sqlite3'
 
+gem "alice", :git => 'git://github.com/BrandyMint/alice.git', :branch=>'master'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -21,6 +23,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+gem 'activeadmin'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -52,3 +56,4 @@ gem "bootstrap-sass", ">= 2.1.0.0"
 gem "devise", ">= 2.1.2"
 gem "cancan", ">= 1.6.8"
 gem "rolify", ">= 3.2.0"
+gem "hub", ">= 1.10.2", :require => nil, :group => [:development]
